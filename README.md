@@ -44,12 +44,12 @@ Fonctionnement de l'application
     - BV : Brevet
     - AP : Autre Production
 - Une publication sur notre site sera décrite par les éléments suivants :
-    Une liste variable d'auteurs (de l'UTT ou de l'extérieur), sachant que pour que l'article soit présent dans la base, il faut au moins un auteur de l'UTT.
-    Le titre de l'article
-    Le titre ou la référence à une publication
-    L'année de la publication
-    Le lieu de la conférence (donc uniquement valable pour les conférences)
-    Un statut (soumis, en révision, publié). Ce statut permet de connaître l'état de la publication.
+    - Une liste variable d'auteurs (de l'UTT ou de l'extérieur), sachant que pour que l'article soit présent dans la base, il faut au moins un auteur de l'UTT.
+    - Le titre de l'article
+    - Le titre ou la référence à une publication
+    - L'année de la publication
+    - Le lieu de la conférence (donc uniquement valable pour les conférences)
+    - Un statut (soumis, en révision, publié). Ce statut permet de connaître l'état de la publication.
 
 Fonctionnalités pour les chercheurs de l'UTT
 - Création d'un nouveau compte : Il faut créer un compte pour chaque utilisateur de l'UTT qui souhaite ajouter ou modifier une publication. La création d'un compte pour un auteur permet de collecter des informations sur l'auteur : nom, prénom, login, mot de passe, organisation, équipe de recherche, .... Vous êtes libres de demander d'autres informations à l'utilisateur via des formulaires et/ou d'ajouter des informations automatiquement pour compléter les caractéristiques du compte.
@@ -63,15 +63,15 @@ Fonctionnalités pour l'administrateur du site
 
 Fonctionnalités pour les visiteurs du site (donc pour tous)
 - Fonction de recherche : Vous devez proposer un ensemble de fonction de recherche de publication. Une fonction de recherche renvoie toujours une liste de publications catégorisés. La présentation des informations à l'écran doit permettre une navigation dans la base de données des publications. Ainsi :
-    En cliquant sur le titre de la publication il est possible de récupérer le document
-    En cliquant sur l'un des auteurs, il est possible de récupérer l'ensemble des publications de cet auteur
-    En cliquant sur un lien ou une image associé à la publication, il est possible d'obtenir les informations complètes sur cette publication : liste des auteurs avec leur organisation et leur équipe, titre, .....
+    - En cliquant sur le titre de la publication il est possible de récupérer le document
+    - En cliquant sur l'un des auteurs, il est possible de récupérer l'ensemble des publications de cet auteur
+    - En cliquant sur un lien ou une image associé à la publication, il est possible d'obtenir les informations complètes sur cette publication : liste des auteurs avec leur organisation et leur équipe, titre, .....
 - Il est demandé de construire au moins les fonctions de recherche suivantes :
-    Liste des publications présente dans la base dans l'ordre chronologique (ordonnée par catégorie et par année)
-    Liste des publications pour un laboratoire donné et à partir d'une année donnée (donc formulaire avec deux paramètres)
-    Liste des publications d'un chercheur donné (ordonnée par catégorie et par année)
-    Liste des collaborations extérieures à l'UTT d'un chercheur donné.
-    Liste des co-auteurs d'un chercheur donné ordonnée par nombre de co-publications décroissante.
+    - Liste des publications présente dans la base dans l'ordre chronologique (ordonnée par catégorie et par année)
+    - Liste des publications pour un laboratoire donné et à partir d'une année donnée (donc formulaire avec deux paramètres)
+    - Liste des publications d'un chercheur donné (ordonnée par catégorie et par année)
+    - Liste des collaborations extérieures à l'UTT d'un chercheur donné.
+    - Liste des co-auteurs d'un chercheur donné ordonnée par nombre de co-publications décroissante.
 
 Travail
 
@@ -79,34 +79,34 @@ Travail
     Page de garde type rapport de stage (logo UTT, noms, prénoms, programmes (TC4, ISI2, ..) du binôme, ... (cf modèle sur l'ent)
     Table des matières (avec pages numérotées)
     1. Introduction
-      Résumé du sujet du projet
-      Problématiques à résoudre
+      - Résumé du sujet du projet
+      - Problématiques à résoudre
     2. Analyse des contraintes et des besoins du cahier des charges : points importants
     3. Modélisation des fonctionnalités demandées : diagramme de fonctionnement, des différentes parties / sous-parties
     4. Etapes de conception de votre projet : aspect web, technologies et outils utilisés, ...
     5. Etapes de conception de la base de données : schéma de la base de données, modèle physique des données (fichier SQL de création des relations
     6. Conclusion
-      Rappel de la mission et des contraintes
-      Vos contributions et points clés du projet
-      Ouverture du sujet
+      - Rappel de la mission et des contraintes
+      - Vos contributions et points clés du projet
+      - Ouverture du sujet
 - Documents transmis
-    Le document transmis sur le site de moodle sera un document zipé portant vos noms. Exemple dupont_durant.zip
-    Ce document contiendra :
-      votre rapport au format pdf
-      votre présentation au format pdf
-      un zip du répertoire de votre projet sous Netbeans
+    - Le document transmis sur le site de moodle sera un document zipé portant vos noms. Exemple dupont_durant.zip
+    - Ce document contiendra :
+      - votre rapport au format pdf
+      - votre présentation au format pdf
+      - un zip du répertoire de votre projet sous Netbeans
 - Conseils
-    Vous devez proposer une solution pour la persistance des données dans la base relationnelle. Votre solution doit permettre de répondre à toutes les contraintes du projet en évitant la redondance d'information. Vous pouvez utiliser des outils open source pour concevoir votre base.
-    Développez uniquement les fonctionnalités demandées par le projet. Vos propositions d'extensions ne seront pas évaluées !
-    En cas de grandes difficultés, n'essayer pas de tout faire mais sélectionnez quelques fonctionnalités du projet qui devront fonctionner correctement.
+    - Vous devez proposer une solution pour la persistance des données dans la base relationnelle. Votre solution doit permettre de répondre à toutes les contraintes du projet en évitant la redondance d'information. Vous pouvez utiliser des outils open source pour concevoir votre base.
+    - Développez uniquement les fonctionnalités demandées par le projet. Vos propositions d'extensions ne seront pas évaluées !
+    - En cas de grandes difficultés, n'essayer pas de tout faire mais sélectionnez quelques fonctionnalités du projet qui devront fonctionner correctement.
 
 Evaluation
 
 - Date limite pour la remise du rapport : le jour de la soutenance. Les pénalités seront de 1 point par jour de retard.
 - Les soutenances auront lieu entre le 13 juin et le 29 juin 2016 binôme par binôme après inscription.
 - Une soutenance est constituée :
-    d'une présentation par transparents de 15 minutes directement sur un ordinateur
-    de la démonstration du projet (10 minutes)
-    de quelques questions
+    - d'une présentation par transparents de 15 minutes directement sur un ordinateur
+    - de la démonstration du projet (10 minutes)
+    - de quelques questions
 
 Marc LEMERCIER
