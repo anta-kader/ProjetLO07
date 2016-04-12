@@ -25,24 +25,24 @@ Cahier des charges
 
 Fonctionnement de l'application
 - Le chercheurs de l'UTT effectuent des travaux de recherche au sein d'un UMR (Unité Mixte de Recherche) dont le nom est l'ICD (Institut Charles Delaunay). Le site Web de ICD est http://icd.utt.fr. L’ICD regroupe huit équipes de recherche :
-    CREIDD : Centre de Recherches et d'Etudes Interdisciplinaires sur le Développement Durable
-    ERA : Environnement de Réseaux Autonomes
-    GAMMA3 : Génération Automatique de Maillage et Méthodes Avancées
-    LASMIS : Systèmes Mécaniques et Ingénierie Simultanée
-    LM2S : Modélisation et Sûreté des Systèmes
-    LNIO : Nanotechnologie et Instrumentation Optique
-    LOSI : Optimisation des Systèmes Industriels
-    Tech-CICO : Technologies pour la Coopération, l'Interaction et les COnnaissances dans les collectifs
+    - CREIDD : Centre de Recherches et d'Etudes Interdisciplinaires sur le Développement Durable
+    - ERA : Environnement de Réseaux Autonomes
+    - GAMMA3 : Génération Automatique de Maillage et Méthodes Avancées
+    - LASMIS : Systèmes Mécaniques et Ingénierie Simultanée
+    - LM2S : Modélisation et Sûreté des Systèmes
+    - LNIO : Nanotechnologie et Instrumentation Optique
+    - LOSI : Optimisation des Systèmes Industriels
+    - Tech-CICO : Technologies pour la Coopération, l'Interaction et les COnnaissances dans les collectifs
 - Un chercheur de l'UTT ou d'une autre université appartient donc toujours à une organisation et à une équipe. Par exemple Marc LEMERCIER a pour organisation l'UTT et ERA comme équipe de l'ICD. Monsieur Guy Pujolle est un chercheur de l'Université Paris 6 qui effectue ses recherches au sein du laboratoire LIP6.
 - Les chercheurs présentent et valorisent les résultats de leurs travaux de recherche par la rédaction d'articles de recherche. Ceux-ci sont ensuite soumis à des jurys d'experts responsables d'une publication (revue, conférence, ....). Les meilleurs articles sont ensuite publiés dans la publication. Les publications sont organisées par catégorie :
-    RI : Article dans des Revues Internationales
-    CI : Article dans des Conférences Internationales
-    RF : Article dans des Revues Françaises
-    CF : Article dans des Conférences Françaises
-    OS : Ouvrage Scientifique (Chapitre de Livre, ...)
-    TD : Thèse de Doctorat
-    BV : Brevet
-    AP : Autre Production
+    - RI : Article dans des Revues Internationales
+    - CI : Article dans des Conférences Internationales
+    - RF : Article dans des Revues Françaises
+    - CF : Article dans des Conférences Françaises
+    - OS : Ouvrage Scientifique (Chapitre de Livre, ...)
+    - TD : Thèse de Doctorat
+    - BV : Brevet
+    - AP : Autre Production
 - Une publication sur notre site sera décrite par les éléments suivants :
     Une liste variable d'auteurs (de l'UTT ou de l'extérieur), sachant que pour que l'article soit présent dans la base, il faut au moins un auteur de l'UTT.
     Le titre de l'article
