@@ -21,9 +21,9 @@ Votre site devra obligatoirement utiliser les éléments suivants présentés en
 - les autres éléments vus en cours ne sont pas obligatoires (approche objet, XML, Ajax, ...)
 - Si vous utilisez un framework de développement, vous devrez expliquer dans le rapport pourquoi vous avez sélectionné ce framework en particulier.
 
-Cahier_des_charges
+Cahier des charges
 
-> Fonctionnement de l'application
+Fonctionnement de l'application
 - Le chercheurs de l'UTT effectuent des travaux de recherche au sein d'un UMR (Unité Mixte de Recherche) dont le nom est l'ICD (Institut Charles Delaunay). Le site Web de ICD est http://icd.utt.fr. L’ICD regroupe huit équipes de recherche :
     CREIDD : Centre de Recherches et d'Etudes Interdisciplinaires sur le Développement Durable
     ERA : Environnement de Réseaux Autonomes
@@ -50,15 +50,18 @@ Cahier_des_charges
     L'année de la publication
     Le lieu de la conférence (donc uniquement valable pour les conférences)
     Un statut (soumis, en révision, publié). Ce statut permet de connaître l'état de la publication.
-> Fonctionnalités pour les chercheurs de l'UTT
+
+Fonctionnalités pour les chercheurs de l'UTT
 - Création d'un nouveau compte : Il faut créer un compte pour chaque utilisateur de l'UTT qui souhaite ajouter ou modifier une publication. La création d'un compte pour un auteur permet de collecter des informations sur l'auteur : nom, prénom, login, mot de passe, organisation, équipe de recherche, .... Vous êtes libres de demander d'autres informations à l'utilisateur via des formulaires et/ou d'ajouter des informations automatiquement pour compléter les caractéristiques du compte.
 - Ajout d'une nouvelle publication : Il s'agit d'enregistrer toutes les informations pour une nouvelle publication. Le nombre d'auteurs est variable, d'ordre des auteurs est important et doit être memorisé. Un document doit aussi être transmis du client vers le serveur et y être sauvegardé pour un affichage ultérieur. Attention pas de redondance d'information. Avant de rajouter un auteur dans la base, vous devez vérifier qu'il n'est pas déjà présent. Même chose pour les organisations, les laboratoires, les noms des conférences, ...
 - Mise à jour d'une publication : Uniquement les auteurs de la publication sont autorisés à modifier une publication. Il peut s'agir de modifier le statut, le titre mais aussi de modifier l'ordre des auteurs et le nombre d'auteurs (+1 ou -1).
-> Fonctionnalités pour l'administrateur du site
+
+Fonctionnalités pour l'administrateur du site
 - Visualisation de la liste des comptes : l'administrateur dispose d'un compte particulier lui permettant de superviser le fonctionnement de son site. La première fonctionnalité est la présentation à l'écran de la liste des utilisateurs avec l'ensemble des données de leurs comptes.
 - Cohérence des données : proposez une solution pour détecter les anomalies dans les publications, par exemples article avec deux fois le même auteur, article présent deux fois dans la base, article dont aucun auteur n'est un chercheur de l'UTT. Votre outil présentera à l'écran la liste des anomalies sans chercher à les corriger. Il s'agit donc d'identifier une liste d'anomalies possibles et de proposer les algorithmes PHP permettant de les détecter.
 - Statistique sur les publications : Proposez une mesure originale de la performance des enseignants chercheurs. Libre choix de l'algorithme !
-> Fonctionnalités pour les visiteurs du site (donc pour tous)
+
+Fonctionnalités pour les visiteurs du site (donc pour tous)
 - Fonction de recherche : Vous devez proposer un ensemble de fonction de recherche de publication. Une fonction de recherche renvoie toujours une liste de publications catégorisés. La présentation des informations à l'écran doit permettre une navigation dans la base de données des publications. Ainsi :
     En cliquant sur le titre de la publication il est possible de récupérer le document
     En cliquant sur l'un des auteurs, il est possible de récupérer l'ensemble des publications de cet auteur
